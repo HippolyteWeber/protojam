@@ -1,17 +1,27 @@
+import { useParams } from "react-router-dom";
 import data from "../../data.json";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-export default function CardDetails({ data }) {
+export default function CardDetails() {
+  const { id } = useParams();
+  const parc = data.data.find((parc) => parc.id === parseInt(id));
+
+  if (!parc) {
+    return <div>Parc non trouvé</div>;
+  }
+
   return (
     <>
-      <h1>{data.title}</h1>
+      <Header />
+      <Navbar />
+      <h1>{parc.title}</h1>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            className="w-full"
-          />
+          <img src={parc.imgSrc1} className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-circle">
+            <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
             <a href="#slide2" className="btn btn-circle">
@@ -20,10 +30,7 @@ export default function CardDetails({ data }) {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            className="w-full"
-          />
+          <img src={parc.imgSrc2} className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">
               ❮
@@ -34,6 +41,8 @@ export default function CardDetails({ data }) {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

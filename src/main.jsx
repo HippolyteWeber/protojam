@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
-import CardList from "./components/CardList";
 import CardDetails from "./pages/CardDetails";
 
 /* import AboutList from "./pages/AboutList"; */
