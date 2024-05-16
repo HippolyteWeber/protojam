@@ -1,23 +1,18 @@
 import "./App.css";
-<<<<<<< HEAD
 import Header from "./components/Header.jsx";
-
-function App() {
-  return (
-    <div>
-      <Header />
-    </div>
-=======
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer.jsx"
+import CardListDetails from "./components/CardList.jsx";
 
 function App() {
   return (
     <>
+      <Header />
       <Navbar />
+      <CardListDetails />
+      
       <Footer />
     </>
->>>>>>> e59536acc367262acaa597332ba1091249525abc
   );
 }
 
