@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
+import CardList from "./components/CardList";
+
 /* import AboutList from "./pages/AboutList"; */
 
 const router = createBrowserRouter([
@@ -15,6 +17,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <AboutList />,
   }, */
+  {
+    path: "/details/:id",
+    element: <CardList />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

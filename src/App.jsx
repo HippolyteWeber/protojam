@@ -1,13 +1,16 @@
 import "./App.css";
-import Footer from "./components/Footer";
+import Header from "./components/Header.jsx";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Footer from "./components/Footer.jsx";
+import CardList from "./components/CardList.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <Navbar />
+      <CardList />
+
       <Footer />
     </>
   );
