@@ -1,6 +1,6 @@
+import { NavLink } from "react-router-dom"
 
-
-export default function CardDetails ({data}) {
+export default function Card ({data}) {
     return (
        
         <div className="card w-96 bg-base-100 shadow-xl">
@@ -11,7 +11,8 @@ export default function CardDetails ({data}) {
     <h2 className="card-title">{data.title}</h2>
     <p>{data.desc}</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Détails</button>
+      
+      <NavLink to={`/details/${data.id}`} className="btn btn-primary">Détails</NavLink>
     </div>
   </div>
 </div>

@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
-import CardListDetails from "./components/CardList";
+import CardList from "./components/CardList";
 
 /* import AboutList from "./pages/AboutList"; */
 
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element: <AboutList />,
   }, */
   {
-    path: "/detail/:id",
-    element: <CardListDetails />,
+    path: "/details/:id",
+    element: <CardList />,
   },
 ]);
 
