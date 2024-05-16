@@ -3,25 +3,22 @@
 }
 
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2020/05/01/03/02/flat-lay-5115324_640.jpg");
+  background-image: url("https://media.istockphoto.com/id/1462978145/fr/photo/arri%C3%A8re-plan-abstrait.jpg?s=612x612&w=0&k=20&c=NqoT06BzipnMlUD0bRu38WH5CwlfI0qzQDh4nCapLZg=");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
 }
 .about-section {
-  .HearderContainer {
-    .headerInput {
-      display: none;
-    }
-  }
   .team-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
     background-color: #eef3f500;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
     .team-item {
+     width: clamp(15rem, calc(22rem + 2vw), 24rem);
       border-radius: 1.5rem;
       background: #34495e;
       text-align: center;
@@ -74,96 +71,9 @@ body {
   }
 }
 
-/*LA RESPONSIVE*/
-
-/* La tablette*/
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-section {
-    .HearderContainer {
-      .HearderTitle {
-        h1 {
-          font-size: 3rem;
-        }
-        p {
-          font-size: 1.8rem;
-        }
-      }
-    }
-  }
-}
-/*LA RESPONSIVE*/
-
-/* La tablette*/
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-section {
-    .HearderContainer {
-      .HearderTitle {
-        h1 {
-          font-size: 3rem;
-        }
-        p {
-          font-size: 1.8rem;
-        }
-      }
-    }
-  }
-}
-/* Ordinateur*/
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .about-section {
-    .HearderContainer {
-      .HearderTitle {
-        h1 {
-          font-size: 3.5rem;
-        }
-        p {
-          font-size: 2.2rem;
-        }
-      }
-    }
-    .team-section {
-      .team-item {
-        width: clamp(12rem, calc(18rem + 2vw), 20rem);
-        height: auto;
-      }
-    }
-  }
-}
-
-/*Grand écran*/
-
-@media screen and (min-width: 1201px) {
-  .about-section {
-    .HearderContainer {
-      .HearderTitle {
-        h1 {
-          font-size: 3.5rem;
-        }
-        p {
-          font-size: 2.2rem;
-        }
-      }
-    }
-    .team-section {
-      padding: 1.9rem;
-      .team-item {
-        width: clamp(12rem, calc(18rem + 2vw), 20rem);
-        height: auto;
-        .team-title {
-          h3 {
-            font-size: 1.5rem;
-          }
-        }
-        .team-info {
-          p {
-            font-size: 0.9rem;
-            font-weight: 500;
-          }
-        }
-      }
-    }
+@media only screen and (max-width: 994px) {
+  .about-section .team-section {
+    display: flex;
+    flex-direction: column;
   }
 }
