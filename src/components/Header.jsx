@@ -12,7 +12,10 @@ function Header() {
           className="w-full h-[25rem] object-cover object-center"
         />
       </div>
-      <div className="relative z-20 text-lime-500"></div>
+      <div className="relative z-20 text-lime-500 pt-10 text-center mb-6">
+        {" "}
+        <a className="btn btn-ghost text-4xl">Code Nature</a>
+      </div>
     </header>
   );
 }
