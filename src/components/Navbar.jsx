@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <div>
       <a className="btn btn-ghost text-xl">Code Nature</a>
-      <div className="navbar-center hidden lg:flex justify-evenly">
+      <div className="navbar-center  lg:flex justify-evenly">
         <ul className="menu menu-horizontal px-1 gap-48">
           <li>
             <a>Parcs</a>
