@@ -29,21 +29,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <details>
-              <summary className="bg-green-950 hover:bg-green-600 hover:bg-opacity-40 hover:scale-125 border-green-600 border-2 hover:border-green-950">
-                Autre
-              </summary>
-              <ul className="p-2 bg-white">
-                <li className="pb-2">
-                  <a
-                    href="/flowers"
-                    className="bg-green-950 hover:bg-green-600"
-                  >
-                    Fleurs
-                  </a>
-                </li>
-              </ul>
-            </details>
+            <a
+              href="/flowers"
+              className="bg-green-950 hover:bg-green-600 hover:bg-opacity-40 hover:scale-125 border-green-600 border-2 hover:border-green-950"
+            >
+              Fleurs
+            </a>
           </li>
           <li>
             <a
