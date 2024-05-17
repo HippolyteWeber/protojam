@@ -5,7 +5,7 @@ import "../styles/About.scss";
 function AboutList() {
   return (
     <div>
-      <div className="about-section">
+      <div className="about-section ">
         <div className="team-section">
           {teamMembers.map((teamMember) => (
             <AboutCard key={teamMember.id} teamMember={teamMember} />
