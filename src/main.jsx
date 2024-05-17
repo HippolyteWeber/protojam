@@ -6,7 +6,7 @@ import App from "./App";
 import "./index.css";
 import AboutList from "./pages/AboutList";
 import CardList from "./components/CardList";
-
+import FlowerList from "./components/FlowerList";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutList />,
-  }, 
+  },
   {
     path: "/details/:id",
     element: <CardList />,
+  },
+  {
+    path: "/flowers",
+    element: <FlowerList />,
   },
 ]);
 
