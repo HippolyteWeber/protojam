@@ -1,8 +1,11 @@
+import icon from "../assets/icon.png";
+
 const Footer = () => {
   return (
     <footer className="bg-green-400 bg-opacity-40 text-white border-t-2 border-green-600 py-4 px-3 mt-[150px] bottom-0 left-0 w-full">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
+        <div className="flex items-center w-full md:w-1/2 md:justify-center md:mb-0 mb-8">
+          <img src={icon} alt="Icone" className="w-8 h-8 mr-2" />
           <p className="text-xs text-gray-400 md:text-sm">
             Copyright 2024 &copy; All Rights Reserved
           </p>
