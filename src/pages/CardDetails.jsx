@@ -30,15 +30,18 @@ export default function CardDetails() {
           navigation={true}
           modules={[Navigation, Autoplay]}
           autoplay={{ delay: 5000 }}
-          className="md:w-6/12"
+          className="w-4/5 md:w-6/12"
         >
           <SwiperSlide>
             {" "}
-            <img src={parc.imgSrc1} className="w-full h-2/5 px-20 " />
+            <img
+              src={parc.imgSrc1}
+              className="w-auto  sm:w-full h-2/5 px-20 "
+            />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={parc.imgSrc2} className="w-full h-2/5 px-20" />
+            <img src={parc.imgSrc2} className="w-auto sm:w-full h-2/5 px-20" />
           </SwiperSlide>
         </Swiper>
         <div className="">
