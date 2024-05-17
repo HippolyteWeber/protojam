@@ -9,7 +9,6 @@ function App() {
     <div className="bg-gradient-to-b from-green-50 from-10% via-green-300 via-30% to green-400">
       <Navbar />
       <CardList />
-
       <Footer />
     </div>
   );
