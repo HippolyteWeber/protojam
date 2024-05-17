@@ -2,15 +2,14 @@
   margin: 0;
 }
 
-.about-background {
-  background-image: url("https://cdn.pixabay.com/photo/2020/05/01/03/02/flat-lay-5115324_640.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
-}
+
 .about-section {
+  margin-top: 150px;
+   
+  
+  
   .team-section {
+   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -20,7 +19,7 @@
     .team-item {
      width: clamp(15rem, calc(22rem + 2vw), 24rem);
       border-radius: 1.5rem;
-      background: #34495e;
+      background: #206e31;
       text-align: center;
       padding: 1rem;
       margin: 1rem;
@@ -29,7 +28,7 @@
       .team-title {
         padding: 1rem;
         h3 {
-          font-size: 1.2rem;
+          font-size: 1.8rem;
         }
       }
 
