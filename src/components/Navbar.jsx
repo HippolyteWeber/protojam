@@ -13,7 +13,7 @@ export default function Navbar() {
       <Link to="/" className="btn btn-ghost text-6xl max-[776px]:text-4xl">
         Code Nature
       </Link>
-      <div className="navbar-center  lg:flex lg:justify-evenly ">
+      <div className="navbar-center  lg:flex lg:justify-evenly pb-20 ">
         <ul className="menu menu-horizontal px-1 gap-48 max-[776px]:gap-6">
           <li>
             <a className="bg-green-950 hover:bg-green-600 hover:bg-opacity-40 hover:scale-125 border-green-600 border-2 hover:border-green-950">
@@ -33,9 +33,6 @@ export default function Navbar() {
                   >
                     Fleurs
                   </Link>
-                </li>
-                <li>
-                  <a className="bg-green-950 hover:bg-green-600">Plein Air</a>
                 </li>
               </ul>
             </details>
