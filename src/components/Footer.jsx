@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex items-center w-full md:w-1/2 md:justify-center md:mb-0 mb-8">
           <img src={icon} alt="Icone" className="w-8 h-8 mr-2" />
           <p className="text-xs text-gray-400 md:text-sm">
-            Copyright 2024 &copy; All Rights Reserved
+            Copyright {new Date().getFullYear()} &copy; All Rights Reserved
           </p>
         </div>
         <div className="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
