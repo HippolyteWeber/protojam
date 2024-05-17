@@ -1,3 +1,4 @@
+import IMG from "../assets/imgfrance-parc.jpg";
 export default function HomePage() {
   return (
     <>
@@ -14,6 +15,13 @@ export default function HomePage() {
         prochaine aventure au sein des trésors naturels de la France. Explorez,
         respectez et protégez nos parcs nationaux pour les générations futures.
       </p>
+      <div className="flex justify-center mt-16 mx-10">
+        <img
+          className="lg:max-w-3xl rounded-xl sm:max-w-sm"
+          src={IMG}
+          alt="Tout les parcs"
+        />
+      </div>
     </>
   );
 }
