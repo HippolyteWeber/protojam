@@ -6,14 +6,9 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-green-50 from-10% via-green-300 via-30% to green-400">
+    <div className="bg-gradient-to-b from-slate-700 from-10% via-slate-800 via-40% to slate-900">
       <Navbar />
-<<<<<<< HEAD
-      <CardList />
-
-=======
       <Outlet />
->>>>>>> aae85d5aa7fc99de8a2fcd5ba25e09db05e34993
       <Footer />
     </div>
   );

@@ -16,11 +16,11 @@ export default function CardDetails() {
   }
 
   return (
-    <>
-      <div className="bg-gradient-to-b from-green-50 from-10% via-green-300 via-30% to green-400">
+    <div className="bg-gradient-to-b from-slate-700 from-10% via-slate-800 via-40% to slate-900">
+      <div className="  flex flex-col items-center">
         <h1
           className="text-3xl pt-8
-      pb-5 pl-20"
+      pb-5"
         >
           {parc.title}
         </h1>
@@ -30,6 +30,7 @@ export default function CardDetails() {
           navigation={true}
           modules={[Navigation, Autoplay]}
           autoplay={{ delay: 5000 }}
+          className="md:w-6/12"
         >
           <SwiperSlide>
             {" "}
@@ -40,38 +41,14 @@ export default function CardDetails() {
             <img src={parc.imgSrc2} className="w-full h-2/5 px-20" />
           </SwiperSlide>
         </Swiper>
-        <div className="pl-20 flex flex-col">
-          <a>{parc.creationDate}</a>
-          <span>Supérficie: {parc.areaKm}</span>
-          <p>{parc.desc}</p>
+        <div className="">
+          <div className="max-w-containText">
+            <p>{parc.creationDate}</p>
+            <p>Supérficie: {parc.areaKm}</p>
+            <p>{parc.desc}</p>
+          </div>
         </div>
       </div>
-
-      {/* <h1 className="text-3xl p-2">{parc.title}</h1>
-      <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img src={parc.imgSrc1} className="w-full " />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img src={parc.imgSrc2} className="w-full" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-      </div> */}
-    </>
+    </div>
   );
 }
