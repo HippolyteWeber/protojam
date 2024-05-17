@@ -25,7 +25,7 @@
       "title": "Parc national des Cévennes",
       "creationDate": "crée en 1970",
       "imgSrc1": "/src/assets/cevenes.jpeg",
-      "imgSrc2": "src/assets/cevennesmap.jpeg",
+      "imgSrc2": "/src/assets/cevennesmap.jpeg",
       "areaKm": "937km²",
       "desc": "Situé dans le sud de la France, il est connu pour ses paysages dramatiques, son agriculture traditionnelle et son histoire culturelle.",
       "highlights": "Grottes et gorges, villages historiques, biodiversité"
@@ -99,6 +99,46 @@
       "areaKm": "560km²",
       "desc": "Le plus récent parc national de France, situé dans les régions de Champagne et de Bourgogne, il préserve de vastes forêts de feuillus et une faune diversifiée.",
       "highlights": "Forêts de feuillus, habitats de la faune, paysages pittoresques"
+    },
+    {
+      "id": 11,
+      "title": "Parc national de la Vanoise",
+      "creationDate": "crée en 1963",
+      "imgSrc1": "/src/assets/parcvanoise.jpeg",
+      "imgSrc2": "/src/assets/vanoisemap.jpeg",
+      "areaKm": "528km²",
+      "desc": "Situé dans les Alpes françaises, il est connu pour ses paysages alpins majestueux, sa faune abondante et ses itinéraires de randonnée pittoresques.",
+      "highlights": "Paysages alpins, observation de la faune, randonnée"
+    },
+    {
+      "id": 12,
+      "title": "Parc national de la Brenne",
+      "creationDate": "crée en 1989",
+      "imgSrc1": "/src/assets/brenne.jpeg",
+      "imgSrc2": "/src/assets/brennemap.jpeg",
+      "areaKm": "1670km²",
+      "desc": "Situé dans la région Centre-Val de Loire, il est surnommé 'le pays des mille étangs' en raison de ses nombreux lacs et étangs, et abrite une riche biodiversité.",
+      "highlights": "Étangs, ornithologie, biodiversité"
+    },
+    {
+      "id": 13,
+      "title": "Parc national de l'île de Porquerolles",
+      "creationDate": "crée en 2012",
+      "imgSrc1": "/src/assets/porquerolles.jpeg",
+      "imgSrc2": "/src/assets/porquerollesmap.jpeg",
+      "areaKm": "12km²",
+      "desc": "Situé sur l'île de Porquerolles dans le Var, il présente une flore méditerranéenne préservée, des plages de sable blanc et des sentiers de randonnée panoramiques.",
+      "highlights": "Plages, flore méditerranéenne, sentiers de randonnée"
+    },
+    {
+      "id": 14,
+      "title": "Parc national de la Grande Chartreuse",
+      "creationDate": "crée en 1997",
+      "imgSrc1": "/src/assets/chartreuse.jpeg",
+      "imgSrc2": "/src/assets/chartreusemap.jpeg",
+      "areaKm": "250km²",
+      "desc": "Situé dans les Alpes françaises, ce parc protège les montagnes de la Chartreuse et abrite une flore et une faune remarquables ainsi que le monastère de la Grande Chartreuse.",
+      "highlights": "Montagnes, monastère, nature préservée"
     }
   ]
 }

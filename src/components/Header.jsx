@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div className="relative z-20 text-lime-500 pt-10 text-center mb-6">
         {" "}
-        <a className="btn btn-ghost text-4xl">Code Nature</a>
+        <a className="btn btn-ghost text-6xl">Code Nature</a>
       </div>
     </header>
   );

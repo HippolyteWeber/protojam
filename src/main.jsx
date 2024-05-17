@@ -5,8 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 import AboutList from "./pages/AboutList";
-import CardList from "./components/CardList";
-
+import FlowerList from "./components/FlowerList";
+import CardDetails from "./pages/CardDetails";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutList />,
-  }, 
+  },
   {
     path: "/details/:id",
-    element: <CardList />,
+    element: <CardDetails />,
+  },
+  {
+    path: "/flowers",
+    element: <FlowerList />,
   },
 ]);
 
