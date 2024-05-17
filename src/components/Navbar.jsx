@@ -2,7 +2,7 @@ import BGHEADER from "../assets/backgroundHeader.mp4";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
-    <div className="text-sky-100 text-center bg-green-800 bg-opacity-40 border-b-2 border-green-800">
+    <div className="text-sky-100 text-center bg-green-800  border-b-2 border-green-800">
       <video
         src={BGHEADER}
         autoPlay
