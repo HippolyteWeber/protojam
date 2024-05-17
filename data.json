@@ -44,7 +44,7 @@
       "id": 5,
       "title": "Parc national du Mercantour",
       "creationDate": "crée en 1979",
-      "imgSrc1": "/src/assets/mercantour.jpeg",
+      "imgSrc1": "../assets/mercantour.jpeg",
       "imgSrc2": "/src/assets/mercantourmap.jpeg",
       "areaKm": "685km²",
       "desc": "Situé dans les Alpes du Sud, il présente un mélange d'écosystèmes méditerranéens et alpins, une faune riche et des sites archéologiques.",
