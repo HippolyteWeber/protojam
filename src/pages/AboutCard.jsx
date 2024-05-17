@@ -12,7 +12,7 @@ function About({ teamMember }) {
         <p>{teamMember.desc}</p>
         <ul className="team-icon">
           <li>
-            <a href={teamMember.linkedin} target="_blank">
+            <a href={teamMember.linkedin} target="_blank" rel="noreferrer">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
