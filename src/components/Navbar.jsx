@@ -23,8 +23,13 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1 gap-48 max-[776px]:gap-6">
           <li>
             <Link
+<<<<<<< HEAD
               to="/"
               className="bg-green-950 hover:bg-green-600 hover:scale-125 border-green-600 border-2 hover:border-green-950"
+=======
+              to="/CardList"
+              className="bg-green-950 hover:bg-green-600 hover:bg-opacity-40 hover:scale-125 border-green-600 border-2 hover:border-green-950"
+>>>>>>> aae85d5aa7fc99de8a2fcd5ba25e09db05e34993
             >
               Parcs
             </Link>
