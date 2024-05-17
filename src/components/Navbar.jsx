@@ -12,7 +12,7 @@ export default function Navbar() {
       ></video>
       <div className="flex-1 flex justify-center items-center pt-4">
         <div className="flex items-center">
-          <img src={icon} alt="Icone" className="w-8 h-8" />
+          <img src={icon} alt="Icone" className="w-16 h-16" />
           <a href="/" className="btn btn-ghost text-4xl max-[776px]:text-4xl">
             Code Nature
           </a>
