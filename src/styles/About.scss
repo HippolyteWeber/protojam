@@ -1,15 +1,11 @@
-* {
-  margin: 0;
-}
-
+// * {
+//   margin: 0;
+// }
 
 .about-section {
   margin-top: 150px;
-   
-  
-  
+
   .team-section {
-   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -17,7 +13,7 @@
     background-color: #eef3f500;
 
     .team-item {
-     width: clamp(15rem, calc(22rem + 2vw), 24rem);
+      width: clamp(15rem, calc(22rem + 2vw), 24rem);
       border-radius: 1.5rem;
       background: #206e31;
       text-align: center;

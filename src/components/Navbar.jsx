@@ -1,6 +1,5 @@
 import BGHEADER from "../assets/backgroundHeader.mp4";
 import icon from "../assets/icon.png";
-import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="text-sky-100 text-center bg-green-800  border-b-2 border-green-800">
