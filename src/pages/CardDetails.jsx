@@ -1,7 +1,5 @@
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -19,7 +17,6 @@ export default function CardDetails() {
 
   return (
     <>
-      <Navbar />
       <div className="bg-gradient-to-b from-green-50 from-10% via-green-300 via-30% to green-400">
         <h1
           className="text-3xl pt-8
@@ -75,8 +72,6 @@ export default function CardDetails() {
           </div>
         </div>
       </div> */}
-
-      <Footer />
     </>
   );
 }

@@ -7,23 +7,35 @@ import "./index.css";
 import AboutList from "./pages/AboutList";
 import FlowerList from "./components/FlowerList";
 import CardDetails from "./pages/CardDetails";
+import HomePage from "./pages/HomePage";
+import CardList from "./components/CardList";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "/about",
-    element: <AboutList />,
-  },
-  {
-    path: "/details/:id",
-    element: <CardDetails />,
-  },
-  {
-    path: "/flowers",
-    element: <FlowerList />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/CardList",
+        element: <CardList />,
+      },
+      {
+        path: "/about",
+        element: <AboutList />,
+      },
+      {
+        path: "/details/:id",
+        element: <CardDetails />,
+      },
+      {
+        path: "/flowers",
+        element: <FlowerList />,
+      },
+    ],
   },
 ]);
 
