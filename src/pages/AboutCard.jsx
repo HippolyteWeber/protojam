@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function About({ teamMember }) {
   return (
-    <div className="team-item">
+    <div className="team-item ">
       <img src={teamMember.image} className="team-img" alt={teamMember.name} />
       <div className="team-title">
         <h3>{teamMember.name}</h3>
