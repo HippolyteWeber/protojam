@@ -25,7 +25,7 @@
       "title": "Parc national des Cévennes",
       "creationDate": "crée en 1970",
       "imgSrc1": "/src/assets/cevenes.jpeg",
-      "imgSrc2": "src/assets/cevennesmap.jpeg",
+      "imgSrc2": "/src/assets/cevennesmap.jpeg",
       "areaKm": "937km²",
       "desc": "Situé dans le sud de la France, il est connu pour ses paysages dramatiques, son agriculture traditionnelle et son histoire culturelle.",
       "highlights": "Grottes et gorges, villages historiques, biodiversité"
@@ -135,7 +135,7 @@
       "title": "Parc national de la Grande Chartreuse",
       "creationDate": "crée en 1997",
       "imgSrc1": "/src/assets/chartreuse.jpeg",
-      "imgSrc2": "/src/assets/grande_chartreuse_map.jpeg",
+      "imgSrc2": "/src/assets/chartreusemap.jpeg",
       "areaKm": "250km²",
       "desc": "Situé dans les Alpes françaises, ce parc protège les montagnes de la Chartreuse et abrite une flore et une faune remarquables ainsi que le monastère de la Grande Chartreuse.",
       "highlights": "Montagnes, monastère, nature préservée"
