@@ -1,10 +1,10 @@
 export default function HomePage() {
   return (
     <>
-      <h1 className="text-center my-10 text-3xl">
+      <h1 className="text-center my-10 text-3xl text-teal-800">
         Les Parcs Nationaux de France
       </h1>
-      <p className="px-96">
+      <p className="px-10 lg:px-40 xl:px-96">
         Bienvenue sur notre site dédié aux parcs nationaux de France ! Plongez
         au cœur de la nature sauvage et préservée de nos régions, découvrez des
         paysages à couper le souffle et une flore exceptionnelles, et
