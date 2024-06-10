@@ -1,4 +1,4 @@
-import BGHEADER from "../assets/backgroundHeader.mp4";
+import BGHEADER from "../assets/img/backgroundHeader.mp4";
 
 function Header() {
   return (

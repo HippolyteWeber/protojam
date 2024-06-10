@@ -1,4 +1,4 @@
-import IMG from "../assets/imgfrance-parc.jpg";
+import IMG from "../assets/img/imgfrance-parc.jpg";
 export default function HomePage() {
   return (
     <>
